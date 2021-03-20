@@ -1,157 +1,196 @@
-body,h1,h2,h3,h4,h5,h6{
+body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
 
+.nav-link {
+  margin: 10px;
+  font-size: 20px;
 }
-.nav-link{
-      margin: 10px;
-      font-size: 20px;
-}
-.navbar{
-  font-family: "ubuntu",sans-serif;
+
+.navbar {
+  font-family: "ubuntu", sans-serif;
   font-size: 1.6rem;
   margin: -32px 0px -32px 0px;
 }
-#navigation-bar{
 
-  background-color: #caf7e3;
+#navigation-bar {
+  background-color: white;
+  /* #caf7e3 */
   position: fixed;
   text-align: center;
   width: 100%;
   z-index: 1;
+  border-bottom-style: solid;
 }
-.empty-space{
-  height: 200px;
+
+.empty-space {
+  height: 130px;
   background-color: white;
 }
-.logo{
+
+.logo {
   border: 2px bold;
   margin-right: 70px;
   height: 100px;
   width: 100px;
 }
 
-#title{
-  background-color: #white;
+#title {
+  background-color: #e9896a;
+  width: 100%;
   text-align: center;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-h1{
+h1 {
   font-size: 3.5rem;
   padding: 11% 0%;
   text-align: left;
   color: 34626c;
 }
-.container-fluid{
+
+.container-fluid {
   padding: 2% 5%;
 }
-.home-banner{
+
+.home-banner {
   height: 400px;
   width: 400px;
 }
+
 /* Features section*/
-.team-viewer{
+.team-viewer {
   height: 200px;
   width: 200px;
 }
-#features{
+
+#features {
   background-color: white;
   text-align: center;
   padding: 5% 2%;
 }
-h3{
+
+h3 {
   color: #34626c;
 }
-.icon:hover{
+
+.icon:hover {
   color: #f9813a;
 }
+
 /* computer-section */
-#computer{
-  background-color: #93abd3;
+#computer {
+  background-color: #e9896a;
+  /* #93abd3 */
   text-align: center;
 }
-.mid-margin{
-    border-style: solid;
-    border-width: 0 4px 0 0;
+
+.mid-margin {
+  border-style: solid;
+  border-width: 0 4px 0 0;
 }
-@media (max-width:767px){
-  .mid-margin{
-      padding: 10% 0;
-      border-style: solid;
-      border-width: 0 0 4px 0;
+
+@media (max-width:767px) {
+  .mid-margin {
+    padding: 10% 0;
+    border-style: solid;
+    border-width: 0 0 4px 0;
   }
-  .hardware{
+
+  .hardware {
     height: 300px;
     width: 300px;
     transition: transform .2s;
     margin-top: 10%;
   }
 }
-.software,.hardware{
+
+.software, .hardware {
   height: 300px;
   width: 300px;
   transition: transform .2s;
 }
-.software:hover,.hardware:hover{
+
+.software:hover, .hardware:hover {
   transform: scale(1.1);
 }
-h2{
+
+h2 {
   padding: 5% 3%;
-  font-family: "popper",sans-serif;
+  font-family: "popper", sans-serif;
   font-weight: bold;
 }
 
 /* main-features */
-.biometric{
+#main-features {
+  margin-bottom: 7px;
+}
+
+.biometric {
   height: 200px;
   width: 200px;
   float: right;
   margin-left: 20px;
 }
 
-.sprinkler{
+.sprinkler {
   height: 200px;
   width: 200px;
   float: right;
   margin-right: 20px;
 }
-.cctv-img{
+
+.cctv-img {
   height: 200px;
   width: 200px;
   float: left;
-  margin-right:20px;
+  margin-right: 20px;
 }
-.feat{
+
+.feat {
   padding: 4%;
 }
+
 /* footer */
-#footer{
+#footer {
   margin-top: 20px;
-    background-color: #9fd8df;
+  background-color: #a4ebf3;
   text-align: center;
 }
-.facebook{
+
+.facebook {
   color: grey;
   margin-right: 20px;
 }
-.gmail{
+
+.gmail {
   color: grey;
   margin: 0 10px;
 }
-.twitter{
+
+.twitter {
   color: grey;
   margin-right: 20px;
 }
-.twitter:hover{
+
+.twitter:hover {
   color: #1DA1F2;
 }
-.facebook:hover{
-  color:#4267B2;
+
+.facebook:hover {
+  color: #4267B2;
 }
-.gmail:hover{
+
+.gmail:hover {
   color: #EA4335;
 }
-.footer-text{
-  margin: 20px;
+
+.footer-text {
+  margin: 7px;
+}
+
+.footer-main {
+  margin-top: 3px;
+  padding-top: 12px;
+  height: 150px;
 }

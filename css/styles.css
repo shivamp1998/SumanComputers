@@ -8,6 +8,7 @@ body,h1,h2,h3,h4,h5,h6{
   width: 150px;
   margin-left: -97px;
 }
+
 #title{
   background-color: #bce6eb;
   text-align: center;
@@ -51,19 +52,94 @@ h3{
   color: #34626c;
 }
 .icon:hover{
-  color: orange;
+  color: #f9813a;
 }
 /* computer-section */
 #computer{
-  background-color: #e4e978;
+  background-color: #93abd3;
   text-align: center;
+}
+.mid-margin{
+    border-style: solid;
+    border-width: 0 4px 0 0;
+}
+@media (max-width:767px){
+  .mid-margin{
+      padding: 10% 0;
+      border-style: solid;
+      border-width: 0 0 4px 0;
+  }
+  .hardware{
+    height: 300px;
+    width: 300px;
+    transition: transform .2s;
+    margin-top: 10%;
+  }
 }
 .software,.hardware{
   height: 300px;
   width: 300px;
+  transition: transform .2s;
+}
+.software:hover,.hardware:hover{
+  transform: scale(1.1);
 }
 h2{
   padding: 5% 3%;
   font-family: "popper",sans-serif;
   font-weight: bold;
+}
+
+/* main-features */
+.biometric{
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-left: 20px;
+}
+
+.sprinkler{
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-right: 20px;
+}
+.cctv-img{
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right:20px;
+}
+.feat{
+  padding: 4%;
+}
+/* footer */
+#footer{
+  margin-top: 20px;
+  background-color: #caf7e3;
+  text-align: center;
+}
+.facebook{
+  color: grey;
+  margin-right: 20px;
+}
+.gmail{
+  color: grey;
+  margin: 0 10px;
+}
+.twitter{
+  color: grey;
+  margin-right: 20px;
+}
+.twitter:hover{
+  color: #1DA1F2;
+}
+.facebook:hover{
+  color:#4267B2;
+}
+.gmail:hover{
+  color: #EA4335;
+}
+.footer-text{
+  margin: 20px;
 }

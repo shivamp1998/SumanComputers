@@ -1,28 +1,41 @@
 body,h1,h2,h3,h4,h5,h6{
   margin: 0;
+
+}
+.nav-link{
+      margin: 10px;
+      font-size: 20px;
+}
+.navbar{
+  font-family: "ubuntu",sans-serif;
+  font-size: 1.6rem;
+  margin: -32px 0px -32px 0px;
+}
+#navigation-bar{
+
+  background-color: #caf7e3;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+.empty-space{
+  height: 200px;
+  background-color: white;
 }
 .logo{
   border: 2px bold;
   margin-right: 70px;
-  height: 150px;
-  width: 150px;
-  margin-left: -97px;
+  height: 100px;
+  width: 100px;
 }
 
 #title{
-  background-color: #bce6eb;
+  background-color: #white;
   text-align: center;
   font-family: "Montserrat",sans-serif;
 }
-.nav-link{
-      margin: 22px;
-}
-.navbar{
-  font-family: "Ubuntu",sans-serif;
-  padding: 0 0 0 4.5rem;
-  font-size: 1.6rem;
-  margin: 15px;
-}
+
 
 h1{
   font-size: 3.5rem;
@@ -30,9 +43,8 @@ h1{
   text-align: left;
   color: 34626c;
 }
-
 .container-fluid{
-  padding: 3% 5%;
+  padding: 2% 5%;
 }
 .home-banner{
   height: 400px;
@@ -116,7 +128,7 @@ h2{
 /* footer */
 #footer{
   margin-top: 20px;
-  background-color: #caf7e3;
+    background-color: #9fd8df;
   text-align: center;
 }
 .facebook{

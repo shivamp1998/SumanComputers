@@ -1,0 +1,69 @@
+body,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+.logo{
+  border: 2px bold;
+  margin-right: 70px;
+  height: 150px;
+  width: 150px;
+  margin-left: -97px;
+}
+#title{
+  background-color: #bce6eb;
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+}
+.nav-link{
+      margin: 22px;
+}
+.navbar{
+  font-family: "Ubuntu",sans-serif;
+  padding: 0 0 0 4.5rem;
+  font-size: 1.6rem;
+  margin: 15px;
+}
+
+h1{
+  font-size: 3.5rem;
+  padding: 11% 0%;
+  text-align: left;
+  color: 34626c;
+}
+
+.container-fluid{
+  padding: 3% 5%;
+}
+.home-banner{
+  height: 400px;
+  width: 400px;
+}
+/* Features section*/
+.team-viewer{
+  height: 200px;
+  width: 200px;
+}
+#features{
+  background-color: white;
+  text-align: center;
+  padding: 5% 2%;
+}
+h3{
+  color: #34626c;
+}
+.icon:hover{
+  color: orange;
+}
+/* computer-section */
+#computer{
+  background-color: #e4e978;
+  text-align: center;
+}
+.software,.hardware{
+  height: 300px;
+  width: 300px;
+}
+h2{
+  padding: 5% 3%;
+  font-family: "popper",sans-serif;
+  font-weight: bold;
+}

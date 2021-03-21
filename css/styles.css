@@ -194,3 +194,15 @@ h2 {
   padding-top: 12px;
   height: 150px;
 }
+#testimonail{
+  padding: 3% 7%;
+  height: 300px;
+}
+.review{
+  text-align: center;
+  padding-top: 2% ;
+}
+.review h3{
+  color: #e9896a;
+
+}

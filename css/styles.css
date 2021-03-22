@@ -235,4 +235,8 @@ h2 {
   margin-top: 25px;
   text-align: center;
 }
+#main-features p{
+  font-size: 20px;
+  padding:3% 0;
+}
 /* INDEX PAGE STYLES END */

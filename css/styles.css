@@ -1,3 +1,6 @@
+
+/* INDEX PAGE STYLES */
+
 body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -14,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #navigation-bar {
-  background-color: white;
+  background-color: #fff;
   /* #caf7e3 */
   position: fixed;
   text-align: center;
@@ -30,9 +33,9 @@ body, h1, h2, h3, h4, h5, h6 {
 
 .logo {
   border: 2px bold;
-  margin-right: 70px;
-  height: 100px;
-  width: 100px;
+  margin: 0px 0px 1px -41px;
+  height: 90px;
+  width: 500px;
 }
 
 #title {
@@ -46,7 +49,7 @@ h1 {
   font-size: 3.5rem;
   padding: 11% 0%;
   text-align: left;
-  color: 34626c;
+
 }
 
 .container-fluid {
@@ -75,7 +78,7 @@ h3 {
 }
 
 .icon:hover {
-  color: #f9813a;
+  color: #e9896a;
 }
 
 /* computer-section */
@@ -96,12 +99,21 @@ h3 {
     border-style: solid;
     border-width: 0 0 4px 0;
   }
-
+  .empty-space {
+    height: 100px;
+    background-color: white;
+  }
   .hardware {
     height: 300px;
     width: 300px;
     transition: transform .2s;
     margin-top: 10%;
+  }
+  .navbar {
+    font-family: "ubuntu", sans-serif;
+    font-size: 1.6rem;
+    margin: -32px 0px -32px 0px;
+    padding: 0 0 15px 0;
   }
 }
 
@@ -124,8 +136,15 @@ h2 {
 /* main-features */
 #main-features {
   margin-bottom: 7px;
+  background-color:  #e9896a;
+  padding: 3% 0;
 }
-
+.main-features-text{
+  color: black;
+}
+#main-features p{
+  color: white;
+}
 .biometric {
   height: 200px;
   width: 200px;
@@ -194,15 +213,26 @@ h2 {
   padding-top: 12px;
   height: 150px;
 }
-#testimonail{
-  padding: 3% 7%;
-  height: 300px;
-}
-.review{
+#services{
   text-align: center;
-  padding-top: 2% ;
+   padding: 5% 0;
 }
-.review h3{
-  color: #e9896a;
+.hardware-repair,.networking,.technical-support,.recovery{
+  transition: transform .2s;
+  height: 200px;
+  width: 200px;
+}
+.hardware-repair:hover,.networking:hover,.technical-support:hover,.recovery:hover{
+  transform: scale(1.1);
+}
 
+.graphics-card{
+  transform: rotate(45deg);
 }
+.services-text{
+  font-size: 25px;
+  padding: 5% 2%;
+  margin-top: 25px;
+  text-align: center;
+}
+/* INDEX PAGE STYLES END */

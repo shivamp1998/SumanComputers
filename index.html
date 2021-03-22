@@ -32,16 +32,17 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <a href="#" class="navbar-brand"><img class="logo" src="images/logo.png"></a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar_toggler">
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar_toggler">
-          <ul class="navbar-nav ml-auto" >
-          <li><a class="nav-link" href="#">HOME</a></li>
-          <li><a class="nav-link" href="#">ABOUT</a></li>
-          <li><a class="nav-link" href="#">CONTACT</a></li>
-          <li><a class="btn btn-warning btn-lg nav-link" href="#">Get a Query<a></li>
-        </ul>
-      </div>
+          <ul class="navbar-nav ml-auto">
+            <li><a class="nav-link" href="index.html">HOME</a></li>
+            <li><a class="nav-link" href="#">ABOUT</a></li <li><a class="nav-link" href="contact.html">CONTACT</a></li>
+            <li><a class="nav-link" href="#main-features">PRODUCTS</a></li>
+            <li><a class="nav-link" href="">SOLUTIONS</a></li>
+            <li><a class="btn btn-warning btn-lg nav-link" href="#">Get a Query<a></li>
+          </ul>
+        </div>
       </nav>
     </div>
   </section>
@@ -56,11 +57,41 @@
           </h1>
         </div>
         <div class="col-md-6">
-          <img class="ram-img" src="images/ram.png">
+          <div class="carousel slide" data-ride="carousel" data-interval=1000>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="ram" src="images/ram.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="cctv_intro" src="images/cctv_intro.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="ssd-drive" src="images/fire-alarm.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="graphics-card" src="images/graphics-card.png">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
   </section>
+
+  <!-- <section id="computer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 mid-margin">
+          <img class="software" src="images/hardware.png">
+          <h2>SOFTWARE REPAIR</h2>
+        </div>
+        <div class="col-md-6">
+          <img class="hardware" src="images/software.png">
+          <h2>HARDWARE REPAIR</h2>
+        </div>
+      </div>
+  </section> -->
   <section id="features">
     <div class="container-fluid">
       <div class="row">
@@ -82,41 +113,59 @@
       </div>
     </div>
   </section>
-  <section id="computer">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-6 mid-margin">
-          <img class="software" src="images/hardware.png">
-          <h2>SOFTWARE REPAIR</h2>
-        </div>
-        <div class="col-md-6">
-          <img class="hardware" src="images/software.png">
-          <h2>HARDWARE REPAIR</h2>
-        </div>
-      </div>
-  </section>
+
   <section id="main-features">
     <div class="container-fluid">
       <div class="feat">
         <img class="biometric" src="images/biometric.png">
-        <h3> Biometric Attendence </h3>
+        <h3 class="main-features-text"> Biometric Attendence </h3>
         <p> A biometric device is a security identification and authentication device. Such devices use automated methods of verifying or recognising the identity of a living person based on a physiological or behavioral characteristic. These
           characteristics include fingerprints, facial images, iris and voice recognition. </p>
       </div>
       <div class="feat">
         <img class="cctv-img" src="images/cctv.png">
-        <h3> CCTV installation </h3>
+        <h3 class="main-features-text"> CCTV installation </h3>
         <p>Closed-circuit television (CCTV), also known as video surveillance,[1][2] is the use of video cameras to transmit a signal to a specific place, on a limited set of monitors. It differs from broadcast television in that the signal is not
           openly transmitted, though it may employ point-to-point (P2P), point-to-multipoint (P2MP), or mesh wired or wireless links.</p>
       </div>
       <div class="feat">
         <img class="sprinkler" src="images/sprinkler.png">
-        <h3> Fire Alarm System </h3>
+        <h3 class="main-features-text"> Fire Alarm System </h3>
         <p> A fire alarm system has a number of devices working together to detect and warn people through visual and audio appliances when smoke, fire, carbon monoxide or other emergencies are present. </p>
       </div>
     </div>
   </section>
 
+  <section id="services">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3">
+          <a href="">
+            <img class="hardware-repair" src="images/hardwarerepair.png">
+          </a>
+          <h3 class="services-text"> Hardware Repair </h3>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <img class="networking" src="images/wireless-router.png"></img>
+          </a>
+          <h3 class="services-text"> Networking Services </h3>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <img class="technical-support" src="images/technical-support.png">
+          </a>
+          <h3 class="services-text">Technical Support</h3>
+        </div>
+        <div class="col-md-3">
+          <a href=" "><img class="recovery" src="images/data-recovery.png">
+          </a>
+          <h3 class="services-text">Data Recovery</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
   <section id="footer">
     <div class="footer-main">

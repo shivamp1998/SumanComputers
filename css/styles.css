@@ -23,11 +23,15 @@ body, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   width: 100%;
   z-index: 1;
+  top = 0;
   border-bottom-style: solid;
+  transition: top 0.5s;
+  visibility: visible;
+
 }
 
 .empty-space {
-  height: 130px;
+  height: 100px;
   background-color: white;
 }
 
@@ -240,3 +244,6 @@ h2 {
   padding:3% 0;
 }
 /* INDEX PAGE STYLES END */
+.scrolled{
+  opacity: .5;
+}

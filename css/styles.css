@@ -23,7 +23,7 @@ body, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   width: 100%;
   z-index: 1;
-  top = 0;
+  top = 0 ;
   border-bottom-style: solid;
   transition: top 0.5s;
   visibility: visible;
@@ -140,7 +140,7 @@ h2 {
 /* main-features */
 #main-features {
   margin-bottom: 7px;
-  background-color:  #e9896a;
+  background-color:  #4b778d;
   padding: 3% 0;
 }
 .main-features-text{
@@ -177,7 +177,7 @@ h2 {
 /* footer */
 #footer {
   margin-top: 20px;
-  background-color: #a4ebf3;
+  background-color: #ffd3b4;
   text-align: center;
 }
 
@@ -243,7 +243,34 @@ h2 {
   font-size: 20px;
   padding:3% 0;
 }
-/* INDEX PAGE STYLES END */
 .scrolled{
   opacity: .5;
+}
+/* contact page */
+#coverage-area {
+  text-align: center;
+  padding:
+}
+.area{
+  color: #e9896a;
+}
+.inner-coverage{
+  background-color: #4b778d;
+}
+.coverage-list{
+  list-style-type: none;
+  font-size: 30px;
+}
+.coverage-list li{
+  margin: 3px;
+}
+#contact-form{
+  text-align: left;
+  padding: 3%;
+}
+.cform{
+  margin-top: 15px;
+}
+.communicate-img{
+  height: 500px;
 }
